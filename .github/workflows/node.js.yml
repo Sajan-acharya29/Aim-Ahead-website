@@ -42,6 +42,6 @@ jobs:
       # uses: jsmrcaga/action-netlify-deploy@v1.7.1
 
       env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        NETLIFY_AUTH_TOKEN: ${{ secrets.Cpgm4OgnIA9e_FY5QE0Tx2PRtl_7A61b0OWKxfGG_l8 }}
+        NETLIFY_SITE_ID: ${{ secrets.fc9d5a59-c6be-463b-be76-d1848048d063 }}
       run: netlify deploy --prod
