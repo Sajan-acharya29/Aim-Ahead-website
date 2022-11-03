@@ -6,6 +6,7 @@ function Home(){
     return(
         <>
             <ContentSection />
+            <h1> Checking if ci cd works</h1>
         </>
     );
 }
