@@ -1,0 +1,35 @@
+.btn-accept:hover{
+    background-position: 100% 0%;
+}
+.btn-accept{
+    padding: 10px 15px;
+    background-image: linear-gradient(to bottom right, #00f529, #fff);
+    background-position: 0%;
+    background-size: 200%;
+    color: #fff;
+    font-weight: 675;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin: 6px;
+}
+
+.btn-decline:hover{
+    background-position: 100% 0%;
+}
+.btn-decline{
+    padding: 10px 15px;
+    background-image: linear-gradient(to bottom right, #f50a0a, #fff);
+    background-position: 0%;
+    background-size: 200%;
+    color: #fff;
+    font-weight: 675;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin: 6px;
+}

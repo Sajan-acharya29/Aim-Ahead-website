@@ -1,0 +1,31 @@
+.footer-contact{
+    color: #fff;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.footer-container{
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 0 2rem 0;
+    background-color: #242420;
+
+}
+
+.footer-contact-heading{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.footer-contact >p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-contact-text-copyright{
+    text-align: right;
+}

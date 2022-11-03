@@ -1,0 +1,57 @@
+    .home,
+    .services,
+    .admin-login,
+    .sign-up,
+    .login{
+    align-items: center;
+    font-size: 3rem;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+  }
+
+ *   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+
+  
+  .services {
+    color: #000;
+    font-size: 100px;
+    background-size: cover;
+    background-image: url('/public/images/img-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+  
+  .sign-up {
+    color: #000;
+    font-size: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/public/images/sign-up.jpg');
+    background-position: center;
+  } 
+
+  .login {
+    color: #000;
+    font-size: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/public/images/sign-up.jpg');
+    background-position: center;
+  } 
+
+  .admin-login {
+    color: #fff;
+    font-size: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } 

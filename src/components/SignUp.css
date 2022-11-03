@@ -1,0 +1,108 @@
+*{
+    font-family: montserrat, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.outer{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    color: #000;
+    background-image: url('/public/images/login.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    position: relative;
+    display: block;
+
+}
+input{
+    color:#242420;
+}
+.form-inner{
+    display: block;
+    padding: 30px;
+    z-index: 2;
+    background-color: #fff;
+    position: relative;
+}
+form::after{
+    top: -5px;
+    display: block;
+    position: absolute;
+    content: '';
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    background-image: linear-gradient(to bottom right, #00b7ff, #fff);
+}
+.form-inner h2{
+    font-size: 24px;
+    font-weight: 475;
+    color:#00b7ff;
+    margin-bottom: 30px;
+}
+.form-inner{
+    padding: 30px;
+    display: block;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.form-inner .form-group label {
+    margin-bottom: 5px;
+    color: #242420;
+    font-size: 12px;
+    transition: 0.3s;
+    display: block;
+}
+.form-inner .form-group{
+    display: block;
+    margin-bottom: 15px;
+    width: 300px;
+}
+.form-inner .form-group input:focus{
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+.form-inner .form-group:focus-within label{
+    color:#00b7ff;
+
+
+}
+.msg-error{
+    color: red;
+    font-size: 13px;
+    width: 100%;
+}
+.form-inner .btn:hover{
+    background-position: 100% 0%;
+}
+.form-inner .btn{
+    padding: 10px 15px;
+    background-image: linear-gradient(to bottom right, #00b7ff, #fff);
+    background-position: 0%;
+    background-size: 200%;
+    color: #fff;
+    font-weight: 675;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+.form-inner .form-group input{
+    transition: 0.4s;
+    padding: 10px 15px;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    background: #fff;
+}
+
