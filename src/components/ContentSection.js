@@ -9,7 +9,7 @@ function ContentSection() {
   return (
     <div className='content-section-container'>
         <video src= {homevideo} autoPlay loop muted/>
-        <h1>Welcome Caregiver "checking now again" </h1>
+        <h1>Welcome Caregiver "checking at 2.20 PM" </h1>
         <p>Please Login</p>
         <div className='content-section-btns'>
             <Button className='sign-up' buttonStyle='btn--outline' buttonSize='btn--large'> <Link to="/login" className='nav-links-alt'>
